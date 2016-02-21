@@ -9,5 +9,5 @@ Scenario: Searching Google
 Scenario: Searching Google again
 
     Given I open Google's search page
-    When I fill out the search field
-  
+    Then the title is "Google"
+    And the Google search form exists
