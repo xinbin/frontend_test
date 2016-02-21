@@ -3,7 +3,7 @@ Setup for a front end testing suite. This project incorporates nightwatch and cu
 
 uses:
 -------
-* [Faker]()
+* [Faker](https://github.com/marak/Faker.js/)
 * [NightwatchJS](http://nightwatchjs.org/)
 * [Cucumber](https://cucumber.io/)
 * [nightwatchCucumber](https://github.com/mucsi96/nightwatch-cucumber)
@@ -17,4 +17,5 @@ npm install
 ## Running the demo ##
 ```
 ./nightwatch
+node_modules/.bin/cucumberjs
 ```
