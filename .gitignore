@@ -1,0 +1,9 @@
+# don't need to keep those modules
+node_modules
+# any log files
+*.log
+# data from running shit
+reports
+# temp ignores?
+lib
+*.wip
